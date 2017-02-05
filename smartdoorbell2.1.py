@@ -83,7 +83,7 @@ while(1):
 		for zp in doorbellgroup :
 			zp.unjoin()
 
-		# Join doornell zone players into a group with doorbell1 as master
+		# Join doorbell zone players into a group with doorbell1 as master
 		print("Joining doorbell group players with " + doorbell1.player_name + " as master...\n")
 		for i in range(1,len(doorbellgroup)):
 			zp = doorbellgroup[i]
@@ -112,7 +112,7 @@ while(1):
 			print("Ringing...")
 			time.sleep(0.1)
 
-		# Unjoin doornbell zone players doorbell group
+		# Unjoin doorbell zone players doorbell group
 		print("\nUnjoining doorbell group players from doorbell group...")
 		for zp in doorbellgroup:
 			zp.unjoin()
