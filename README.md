@@ -8,3 +8,7 @@ Also I use PushBullet to get a push message on my smartphone (and my wives does 
 
 Don't forget to put in your own API key for PushBullet at line 153 "pb = Pushbullet('put API key here')"
 
+Start with installing the extra software used for Sonos control and Push messages
+
+pip install soco
+
