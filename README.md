@@ -12,3 +12,5 @@ Start with installing the extra software used for Sonos control and Push message
 
 pip install soco
 
+sudo pip install pushbullet.py
+
