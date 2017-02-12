@@ -1,8 +1,8 @@
 # smartdoorbell
-Raspberry Pi Smartdoorbell with Sonos and Pushbullet
+Raspberry Pi 3B Smartdoorbell with Sonos and Pushbullet (this will not work on a Raspberry Pi Zero unfortunately)
 
 ronschaeffer has made an excellent script for using your Sonos speakers for the sound of your doorbell. 
-I added the code for using the Raspberry Pi's GPIO pin 17 for my doorbell button.
+I added the code for using the Raspberry Pi's GPIO pin GPIO17 (pin 11) for my doorbell button (and the other wire to ground offcourse, I use pin 6).
 
 Also I use PushBullet to get a push message on my smartphone (and my wives does too) by using a PushBullet group in my account.
 
