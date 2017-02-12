@@ -14,3 +14,7 @@ pip install soco
 
 sudo pip install pushbullet.py
 
+Also to hold the doorbell sound files I install an appache2 for webservices (in the future I want to add a webgui for tracking visitors etc., so this seemed the obvious choice for now)
+
+sudo apt-get install apache2 -y
+
